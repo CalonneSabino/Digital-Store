@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  nav.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    height: 200px;
+    background-color: #fff;
+  }
+  
+  nav.navbar .logo {
+    position: relative;
+    left: 80px;
+    height: 50px;
+  }
+  .search-container {
+    display: flex;
+    position: relative;
+    left: 150px;
+    padding: 0 80px 0 0;
+    align-items: center;
+    margin-left: 1px;
+    margin-right: 20px;
+   
+  }
+  .search-container input {
+    padding: 5px 10px;
+    width: 700px;
+    height: 50px;
+    border: 1px solid #f8f8f8;
+    border-radius: 4px;
+    outline: none;
+    background-color: #f8f8f8;
+    
+  }
+  .search-container input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+  .search-container .search-icon {
+    height: 20px;
+    margin-left: -40px;
+  }
+  
+nav.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+nav.navbar ul li {
+    margin-left: 20px;
+  }
+  
+nav.navbar ul li a {
+    position: relative;
+    left: 100px;
+    color: rgba(71, 71, 71, 1);
+    font-weight: inherit;
+    white-space: nowrap;
+    
+} 
+nav.navbar button {
+    position: relative;
+    left: 200px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    background-color: #C92071;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 'Inter';
+  }
+  
+nav.navbar button:hover {
+    background-color: #8a0e4a;
+}
+  
+ nav.navbar .car {
+    position: relative;
+    left: 300px;
+    height: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+.list {
+    display: flex;
+    gap: 15px; 
+    position: relative;
+    width: 40%;
+    top: 70px;
+    right: 1310px;
+    margin: 0;
+    list-style-type: none;
+    border: solid 1px  white;
+    font-weight: 700;
+}
+.list a {
+    text-decoration: none; 
+    margin: 8px;
+    color: #333; 
+    text-decoration: none;
+}
+.list a:hover {
+    color: #C92071;
+    margin: 8px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.featured {
+    background-color: #f9f9f9;
+}
+.destaque {
+  max-width: 500% ;
+  margin: 0 auto;
+
+}
+.destaque .ofertas{
+  position: relative;
+  left: 200px;
+  top: 200px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #F6AA1C;
+  font-family: "Inter", sans-serif;
+}
+
+.destaque h1{
+  position: relative;
+  left: 200px;
+  top: 200px;
+  font-size: 80px;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+}
+
+.destaque .shoes{
+    position: relative;
+    left: 800px;
+    bottom: 200px ;
+    width: 900px;
+}
+
+.destaque p {
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+.destaque button {
+  position: relative;
+  bottom: 450px;
+  left: 200px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #C92071;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
