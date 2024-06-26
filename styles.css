@@ -3,11 +3,10 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
   body {
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
   }
-  
   nav.navbar {
     display: flex;
     align-items: center;
@@ -16,7 +15,6 @@
     height: 200px;
     background-color: #fff;
   }
-  
   nav.navbar .logo {
     position: relative;
     left: 80px;
@@ -117,6 +115,7 @@ nav.navbar button:hover {
     text-decoration: underline;
     font-weight: 700;
 }
+/* Section destaques */
 .featured {
     background-color: #f9f9f9;
 }
@@ -167,4 +166,8 @@ nav.navbar button:hover {
   color: #fff;
   border: none;
   cursor: pointer;
+}
+.slide {
+  position: relative;
+  left: -150px;
 }
